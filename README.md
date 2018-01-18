@@ -2,4 +2,4 @@
 
 Web repo for class assignments.
 
-Annie Kyriakidis
+Annie Kyriakidis - axk1028@miami.edu
