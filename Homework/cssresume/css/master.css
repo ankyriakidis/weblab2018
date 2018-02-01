@@ -1,0 +1,52 @@
+#name {
+  color: midnightblue;
+  font-family: 'Pacifico', cursive;
+  border-style: double;
+  text-align: center;
+}
+
+#address {
+  color: midnightblue;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.section-heading {
+  color: midnightblue;
+  font-family: 'Pacifico', cursive;
+}
+
+.profilex {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin:auto;
+  display: block;
+}
+
+.body {
+  font-family: 'Quicksand', sans-serif;
+  color: midnightblue;
+  background: aliceblue;
+}
+
+
+/* unvisited link */
+
+a:link {
+  color: midnightblue;
+  text-decoration: none;
+}
+
+/* visited link */
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: deeppink;
+  text-decoration: none;
+}
