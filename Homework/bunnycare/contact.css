@@ -14,7 +14,8 @@ header {
 
 .left {
   grid-area: left;
-  line-height: 170%;
+  text-align: center;
+  line-height: 250%;
   padding: 10px;
   background: lavenderblush;
   font-family: 'Arimo', sans-serif;
@@ -26,7 +27,8 @@ header {
   line-height: 170%;
   padding: 10px;
   background: lavenderblush;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Clicker Script', cursive;
+  font-size: 150%
 }
 
 nav {
@@ -61,7 +63,6 @@ footer {
   padding: 10px;
   background: lavender;
   font-family: 'Arimo', sans-serif;
-  line-height: 170%;
 }
 
 .wrapper {
@@ -117,18 +118,16 @@ a:hover {
   width: auto;
 }
 
-/* Health & Nutrition */
-
-.housing {
+.annie {
   padding: 1px;
   border: 1px solid midnightblue;
   margin: auto;
   display: block;
-  height: 650px;
+  height: 500px;
   width: auto;
 }
 
-.picasso {
+.baby {
   padding: 1px;
   border: 1px solid midnightblue;
   margin: auto;
@@ -137,32 +136,32 @@ a:hover {
   width: auto;
 }
 
-.relaxing {
-  padding: 1px;
-  border: 1px solid midnightblue;
-  margin: auto;
-  display: block;
-  height: 350px;
-  width: auto;
-  float: left;
-}
+.feet {
+    padding: 1px;
+    border: 1px solid midnightblue;
+    margin: auto;
+    display: block;
+    height: 425px;
+    width: auto;
+    float: left;
+  }
 
-.throne {
-  padding: 1px;
-  border: 1px solid midnightblue;
-  margin: auto;
-  display: block;
-  height: 350px;
-  width: auto;
-  float: left;
-}
+  .nap {
+    padding: 1px;
+    border: 1px solid midnightblue;
+    margin: auto;
+    display: block;
+    height: 425px;
+    width: auto;
+    float: left;
+  }
 
-.chillin {
-  padding: 1px;
-  border: 1px solid midnightblue;
-  margin: auto;
-  display: block;
-  height: 350px;
-  width: auto;
-  float: left;
-}
+  .hello {
+    padding: 1px;
+    border: 1px solid midnightblue;
+    margin: auto;
+    display: block;
+    height: 425px;
+    width: auto;
+    float: left;
+  }

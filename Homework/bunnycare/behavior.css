@@ -117,37 +117,25 @@ a:hover {
   width: auto;
 }
 
-/* Health & Nutrition */
-
-.housing {
+.behavior {
   padding: 1px;
   border: 1px solid midnightblue;
   margin: auto;
   display: block;
-  height: 650px;
+  height: 700px;
   width: auto;
 }
 
-.picasso {
+.closeup {
   padding: 1px;
   border: 1px solid midnightblue;
   margin: auto;
   display: block;
-  height: 375px;
+  height: 670px;
   width: auto;
 }
 
-.relaxing {
-  padding: 1px;
-  border: 1px solid midnightblue;
-  margin: auto;
-  display: block;
-  height: 350px;
-  width: auto;
-  float: left;
-}
-
-.throne {
+.gentleman {
   padding: 1px;
   border: 1px solid midnightblue;
   margin: auto;
@@ -157,7 +145,17 @@ a:hover {
   float: left;
 }
 
-.chillin {
+.Succulent {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin: auto;
+  display: block;
+  height: 350px;
+  width: auto;
+  float: left;
+}
+
+.furball {
   padding: 1px;
   border: 1px solid midnightblue;
   margin: auto;
