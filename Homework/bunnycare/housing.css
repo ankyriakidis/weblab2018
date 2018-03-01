@@ -1,0 +1,164 @@
+body {
+  background: snow;
+  color: midnightblue
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  padding: 10px;
+  background: lavender;
+  font-family: 'Clicker Script', cursive;
+  font-size: 300%
+}
+
+.left {
+  grid-area: left;
+  line-height: 170%;
+  padding: 10px;
+  background: lavenderblush;
+  font-family: 'Arimo', sans-serif;
+}
+
+.right {
+  grid-area: right;
+  text-align: center;
+  line-height: 170%;
+  padding: 10px;
+  background: lavenderblush;
+  font-family: 'Arimo', sans-serif;
+}
+
+nav {
+  grid-area: nav;
+  padding: 10px;
+  background: lavender;
+  font-family: 'Clicker Script', cursive;
+  font-size: 200%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 5px;
+  background: lavenderblush;
+}
+
+.content {
+  grid-area: content;
+  padding: 10px;
+  background: lavender;
+  display: grid;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  padding: 10px;
+  background: lavender;
+  font-family: 'Arimo', sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "header" "nav" "content" "footer";
+}
+
+.content {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: "right" "left";
+}
+
+@media (min-width: 500px) {
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content {
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "right left";
+  }
+}
+
+/* unvisited link */
+
+a:link {
+  color: midnightblue;
+  text-decoration: none;
+}
+
+/* visited link */
+
+a:visited {
+  color: orchid;
+  text-decoration: none;
+}
+
+/* mouse over link */
+
+a:hover {
+  color: deeppink;
+  text-decoration: none;
+}
+
+.logo {
+  padding: 1px;
+  margin: auto;
+  display: block;
+  height: 150px;
+  width: auto;
+}
+
+/* Health & Nutrition */
+
+.housing {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin: auto;
+  display: block;
+  height: 650px;
+  width: auto;
+}
+
+.picasso {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin: auto;
+  display: block;
+  height: 340px;
+  width: auto;
+}
+
+.relaxing {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin: auto;
+  display: block;
+  height: 300px;
+  width: auto;
+}
+
+.throne {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin: auto;
+  display: block;
+  height: 300px;
+  width: auto;
+}
+
+.chillin {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin: auto;
+  display: block;
+  height: 300px;
+  width: auto;
+}
