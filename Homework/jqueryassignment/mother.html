@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <a href="homepage.html">
+    <title>The Case of the Poo-Poo Bandit</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Kreon|Nova+Round" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+
+
+  <main class="wrapper">
+
+    <header>
+      The Case of the Poo-Poo Bandit
+    </header>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="camilla.html">The Witness: Camilla</a>
+          <br>
+          <img src="images/Camilla.png" alt="camilla" class="camilla">
+        </li>
+        <li><a href="mother.html">A Mother's Perspective<br><img src="images/Mom.png" alt="mom" class="mom"></a></li><br>
+        <li><a href="susanna.html">The Accused Perp: Susanna<br><img src="images/Susanna.png" alt="susanna" class="susanna"></a></li><br>
+      </ul>
+
+      <body>
+
+
+        <main class="wrapper">
+
+    </nav>
+    <article class="content">
+      <div class="left">
+        <div id="text">
+          Headmaster Lombardi, in all my years being a sponsor and donor for Harding Academy, I have never heard such an absurd tale. I was around during the tampon debacle of oh-five and the flagpole panty crisis of oh-eight, but never have I been so disillusioned
+          with this institution. The story I heard come forth from my daughter, Camilla’s, sweet, innocent lips is one that I never could have imagined and one that I <i>definitely</i> would hope not to be true…
+        </div>
+        <br><br>
+        <img src="images/arrow.png" alt="arrow" class="arrow" id="arrow1">
+        <img src="images/arrow.png" alt="arrow" class="arrow" id="arrow2">
+        <img src="images/arrow.png" alt="arrow" class="arrow" id="arrow3">
+
+      </div>
+      <div class="right">
+        A Mother's Story<br>
+        <img src="images/Mom.png" alt="mom" class="mom2">
+      </div>
+    </article>
+
+    </main>
+
+    <script type="text/javascript">
+      $("#arrow1").click(function() {
+        $("#text").html(
+          "My daughter relayed for me a tale from her week long seventh grade unity retreat, telling me of two delinquent girls, by the names of Addie and Susanna, terrorizing the entire class. Let me add, the two of them put a dirty frog on Camilla’s pillow as a prank! Now I knew girls and boys on their own could get into trouble, heck I was kid at one time too you know, but back then we would write swear words on bathroom stall doors and make fart noises when adults spoke to us. This time though, they crossed the line… "
+        );
+        $("#arrow1").hide();
+        $("#arrow2").show();
+      });
+
+      $("#arrow2").click(function() {
+        $("#text").html(
+          "Those two girls have created a Title VII Health and Safety Violation code H.S. 4-A5! Fecal matter in a disposal system besides the the toilet! Jesus Christ, in all my years... I cannot believe the school system has stooped so low, admitting students who are not educated on how to use the restroom correctly- A bucket, a FREAKING BUCKET!!!"
+        );
+        $("#arrow2").hide();
+        $("#arrow3").show();
+      });
+
+      $("#arrow3").click(function() {
+        $("#text").html(
+          "Lord have mercy, justice needs to be served and more than a standard punishment needs to be given to those two girls. I don’t know what sentence must be handed to these delinquents, I waver between expulsion and prison time, but something must be done! They ought to be in therapy, not Harding Academy!"
+        );
+        $("#arrow3").hide();
+        $("#arrow4").show();
+      });
+    </script>
+
+    </body>
+
+</html>

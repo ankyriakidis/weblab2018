@@ -3,10 +3,6 @@ body {
   color: black;
 }
 
-a {
-  text-decoration: none;
-}
-
 header {
   grid-area: header;
   text-align: center;
@@ -52,8 +48,6 @@ nav ul {
 nav li {
   padding: 5px;
   background: whitesmoke;
-  text-align: center;
-  /* width column here */
 }
 
 .content {
@@ -132,7 +126,7 @@ a:hover {
   width: auto;
 }
 
-.susanna2 {
+.camilla2 {
   height: 200px;
   width: auto;
   float: left;
@@ -142,8 +136,4 @@ a:hover {
   height: 100px;
   width: auto;
   float: right;
-}
-
-#arrow6, #arrow5, #arrow4, #arrow3, #arrow2 {
-  display: none;
 }

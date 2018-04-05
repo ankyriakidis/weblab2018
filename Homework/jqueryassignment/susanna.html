@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <a href="homepage.html">
+    <title>The Case of the Poo-Poo Bandit</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Kreon|Nova+Round" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+
+
+  <main class="wrapper">
+
+    <header>
+      The Case of the Poo-Poo Bandit
+    </header>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="camilla.html">The Witness: Camilla</a>
+          <br>
+          <img src="images/Camilla.png" alt="camilla" class="camilla">
+        </li>
+        <li><a href="mother.html">A Mother's Perspective<br><img src="images/Mom.png" alt="mom" class="mom"></a></li><br>
+        <li><a href="susanna.html">The Accused Perp: Susanna</a>
+          <br>
+          <img src="images/Susanna.png" alt="susanna" class="susanna"></a></li>
+          <br>
+      </ul>
+
+      <body>
+
+
+        <main class="wrapper">
+
+    </nav>
+    <article class="content">
+      <div class="left">
+        <div id="text">
+          Headmaster Lombardi, <i>I swear</i>, Addie and I were just trying to have fun on the trip. Honestly, we were just bored with all the stupid games that seventh graders shouldn’t be playing anymore like Duck, Duck, Goose. We really meant no harm at all. All I
+          wanted to do was have my own fun, so yes, I do take responsibility for all the wholesome pranks Addie and I pulled, but what Camilla saw, <i>I swear</i>, was not a prank at all. Besides being known as the seventh grade snitch, she really just has something
+          against us since we put a frog on her pillow, so of course this girl is just out to get us! What <i>really</i> happened was…
+        </div>
+        <br><br>
+        <img src="images/arrow.png" alt="arrow" class="arrow" id="arrow1">
+        <img src="images/arrow.png" alt="arrow" class="arrow" id="arrow2">
+        <img src="images/arrow.png" alt="arrow" class="arrow" id="arrow3">
+        <img src="images/arrow.png" alt="arrow" class="arrow" id="arrow4">
+        <img src="images/arrow.png" alt="arrow" class="arrow" id="arrow5">
+
+
+      </div>
+      <div class="right">
+        Susanna's Story
+        <p>
+        <img src="images/Susanna.png" alt="susanna" class="susanna2">
+      </p>
+      </div>
+    </article>
+
+    </main>
+
+    <script type="text/javascript">
+      $("#arrow1").click(function() {
+        $("#text").html(
+          "Addie and I were minding our own business in our tent when nature called, no, conscripted me to the bathroom. We ran as fast as we could to the camp outhouse, but when we arrived, the girls’ line was too long for me to wait. I literally felt myself turtle-heading, prairie dogging as they say in the corn belt. Thank God, Addie being the best friend that she is, realized that the boys’ room should be open because the boys didn’t use the actual bathroom because there was this cliff, a walk down the camp trail that the boys would poop off of because “they liked the sound”- whatever that means. Gross. Anyway…"
+        );
+        $("#arrow1").hide();
+        $("#arrow2").show();
+      });
+
+      $("#arrow2").click(function() {
+        $("#text").html(
+          "The idea was perfect because when we rounded the corner, there was not a single boy in line. At that point, both of us were just laughing out of an adrenaline rush because I’m in the seventh grade and almost about to poop myself!!! I flung open the door and honestly, not even a little bit surprised that the boys’ bathroom was such a wreck. I have a brother, we share a bathroom at home, and some of the same habits were identical to the disaster that laid before my eyes."
+        );
+        $("#arrow2").hide();
+        $("#arrow3").show();
+      });
+
+      $("#arrow3").click(function() {
+        $("#text").html(
+          "I frantically looked around, the toilet was not an option. It was overflowing. It looked like no one had ever flushed that thing before, filled to the top with toilet paper and crap. My eyes darted from the floor to the sink, neither were an option- I’m not that primitive. I glanced back over to the toilet, and I realized I missed something…"
+        );
+        $("#arrow3").hide();
+        $("#arrow4").show();
+      });
+
+      $("#arrow4").click(function() {
+        $("#text").html("A beautifully white, clean bucket with a godly aura that beckoned me over to it. Score!");
+        $("#arrow4").hide();
+        $("#arrow5").show();
+      });
+
+      $("#arrow5").click(function() {
+        $("#text").html("Headmaster Lombardi, I swear, it wasn’t meant as a prank. Frankly, I don’t even understand why this is such a big deal. In the moment, I felt like it was the best option. I had nowhere else to go…");
+        $("#arrow5").hide();
+        $("#arrow6").show();
+      });
+    </script>
+
+    </body>
+
+</html>

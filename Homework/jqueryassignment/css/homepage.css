@@ -3,10 +3,6 @@ body {
   color: black;
 }
 
-a {
-  text-decoration: none;
-}
-
 header {
   grid-area: header;
   text-align: center;
@@ -15,24 +11,6 @@ header {
   color: red;
   font-family: 'Bungee Shade', cursive;
   font-size: 300%
-}
-
-.left {
-  grid-area: left;
-  line-height: 170%;
-  padding: 10px;
-  background: whitesmoke;
-  font-family: 'Kreon', cursive;
-}
-
-.right {
-  grid-area: right;
-  text-align: center;
-  font-size: 200%;
-  line-height: 170%;
-  padding: 10px;
-  background: whitesmoke;
-  font-family: 'Bungee Shade', cursive;
 }
 
 nav {
@@ -52,8 +30,6 @@ nav ul {
 nav li {
   padding: 5px;
   background: whitesmoke;
-  text-align: center;
-  /* width column here */
 }
 
 .content {
@@ -66,10 +42,9 @@ nav li {
 footer {
   grid-area: footer;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   background: whitesmoke;
   font-family: 'Kreon', cursive;
-  line-height: 170%;
 }
 
 .wrapper {
@@ -132,18 +107,11 @@ a:hover {
   width: auto;
 }
 
-.susanna2 {
-  height: 200px;
-  width: auto;
-  float: left;
+li {
+  text-align: center;
 }
 
-.arrow {
-  height: 100px;
-  width: auto;
-  float: right;
-}
-
-#arrow6, #arrow5, #arrow4, #arrow3, #arrow2 {
-  display: none;
+.fire {
+  height: 300px;
+  max-width: auto;
 }
