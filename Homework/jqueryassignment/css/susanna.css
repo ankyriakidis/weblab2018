@@ -129,7 +129,7 @@ a:hover {
 .susanna2 {
   height: 200px;
   width: auto;
-  float: left;
+  margin: auto;
 }
 
 .arrow {
