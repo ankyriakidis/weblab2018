@@ -1,0 +1,17 @@
+header {
+  grid-area: header;
+  text-align: center;
+  padding: 10px;
+  background: mintcream;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 150px;
+  color: darkslategray;
+}
+
+body {
+  background: darkslategray;
+  color: mintcream;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 75px;
+  text-align: center;
+}
