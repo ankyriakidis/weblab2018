@@ -15,3 +15,8 @@ body {
   font-size: 75px;
   text-align: center;
 }
+
+a.fancybox,
+a.fancybox img {
+  width: 200px !important;
+}
