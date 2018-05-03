@@ -28,7 +28,7 @@ header {
   line-height: 170%;
   padding: 10px;
   background: lavender;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 200%
 }
 
@@ -109,4 +109,22 @@ a:visited {
 a:hover {
   color: deeppink;
   text-decoration: none;
+}
+
+.annie1 {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin: auto;
+  display: block;
+  height: 400px;
+  width: auto;
+}
+
+.annie2 {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin: auto;
+  display: block;
+  height: 400px;
+  width: auto;
 }

@@ -18,7 +18,7 @@ header {
   line-height: 250%;
   padding: 10px;
   background: lavender;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Poiret One', cursive;
   font-size: 150%
 }
 
@@ -109,4 +109,14 @@ a:visited {
 a:hover {
   color: deeppink;
   text-decoration: none;
+}
+
+a.fancybox,
+a.fancybox img {
+  width: 200px !important;
+}
+
+.logo {
+  height: 300px;
+  width: auto;
 }

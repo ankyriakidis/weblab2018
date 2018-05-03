@@ -15,7 +15,7 @@ header {
 .left {
   grid-area: left;
   text-align: center;
-  line-height: 250%;
+  line-height: 120%;
   padding: 10px;
   background: lavender;
   font-family: 'Cormorant Garamond', serif;
@@ -109,4 +109,13 @@ a:visited {
 a:hover {
   color: deeppink;
   text-decoration: none;
+}
+
+.annie {
+  padding: 1px;
+  border: 1px solid midnightblue;
+  margin: auto;
+  display: block;
+  height: 500px;
+  width: auto;
 }

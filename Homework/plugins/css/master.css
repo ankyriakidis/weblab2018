@@ -4,7 +4,7 @@ header {
   padding: 10px;
   background: mintcream;
   font-family: 'Reenie Beanie', cursive;
-  font-size: 150px;
+  font-size: 100px;
   color: darkslategray;
 }
 
@@ -12,7 +12,7 @@ body {
   background: darkslategray;
   color: mintcream;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 75px;
+  font-size: 50px;
   text-align: center;
 }
 

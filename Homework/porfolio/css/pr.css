@@ -110,3 +110,13 @@ a:hover {
   color: deeppink;
   text-decoration: none;
 }
+
+.press {
+  height: 800px;
+  width: auto;
+}
+
+.facts {
+  height: 650px;
+  width: auto;
+}
